@@ -14,7 +14,7 @@ These are simple demos showing:
 ![Docs/assets/demo_logo.gif](Docs/assets/demo_logo.gif)
 
 
-### Boot logo and keyboard input
+### Basic Pong game
 ![Docs/assets/demo_logo.gif](Docs/assets/demo_pong.gif)
 
 ## How to run
