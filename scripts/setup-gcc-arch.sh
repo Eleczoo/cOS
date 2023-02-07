@@ -27,9 +27,9 @@ cd gcc-build
 echo Configure: . . . . . . .
 ../gcc-10.2.0/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --disable-libssp --enable-language=c++ --without-headers
 echo MAKE ALL-GCC:
-sudo make all-gcc
+sudo make all-gcc -j$(nproc)
 echo MAKE ALL-TARGET-LIBGCC:
-sudo make all-target-libgcc
+sudo make all-target-libgcc -j$(nproc)
 echo MAKE INSTALL-GCC:
 sudo make install-gcc
 echo MAKE INSTALL-TARGET-LIBGCC:
